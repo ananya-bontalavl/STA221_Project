@@ -1,0 +1,20 @@
+# Exclude large satellite image folders
+EuroSAT/RGB/
+EuroSAT/allBands/
+
+# Mac system files
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
